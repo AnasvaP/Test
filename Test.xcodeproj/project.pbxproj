@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B4EE35F29CCFA0E0077CDD1 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4EE35E29CCFA0E0077CDD1 /* DataController.swift */; };
 		6B4F06F429CAE7F500D226EA /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F06F329CAE7F500D226EA /* TestApp.swift */; };
 		6B4F06F629CAE7F500D226EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F06F529CAE7F500D226EA /* ContentView.swift */; };
 		6B4F06F829CAE7F600D226EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F06F729CAE7F600D226EA /* Assets.xcassets */; };
 		6B4F06FB29CAE7F600D226EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F06FA29CAE7F600D226EA /* Preview Assets.xcassets */; };
-		6B4F06FD29CAE7F600D226EA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F06FC29CAE7F600D226EA /* Persistence.swift */; };
 		6B4F070029CAE7F600D226EA /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F06FE29CAE7F600D226EA /* Test.xcdatamodeld */; };
+		6B4F070729CAE82700D226EA /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F070629CAE82700D226EA /* DataModel.swift */; };
+		6B4F070929CAE84A00D226EA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F070829CAE84A00D226EA /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B4EE35E29CCFA0E0077CDD1 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		6B4F06F029CAE7F500D226EA /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4F06F329CAE7F500D226EA /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
 		6B4F06F529CAE7F500D226EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B4F06F729CAE7F600D226EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B4F06FA29CAE7F600D226EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6B4F06FC29CAE7F600D226EA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6B4F06FF29CAE7F600D226EA /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
+		6B4F070629CAE82700D226EA /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		6B4F070829CAE84A00D226EA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +60,13 @@
 			isa = PBXGroup;
 			children = (
 				6B4F06F329CAE7F500D226EA /* TestApp.swift */,
+				6B4F070829CAE84A00D226EA /* ViewModel.swift */,
 				6B4F06F529CAE7F500D226EA /* ContentView.swift */,
 				6B4F06F729CAE7F600D226EA /* Assets.xcassets */,
-				6B4F06FC29CAE7F600D226EA /* Persistence.swift */,
 				6B4F06FE29CAE7F600D226EA /* Test.xcdatamodeld */,
 				6B4F06F929CAE7F600D226EA /* Preview Content */,
+				6B4F070629CAE82700D226EA /* DataModel.swift */,
+				6B4EE35E29CCFA0E0077CDD1 /* DataController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B4F06FD29CAE7F600D226EA /* Persistence.swift in Sources */,
+				6B4F070729CAE82700D226EA /* DataModel.swift in Sources */,
 				6B4F070029CAE7F600D226EA /* Test.xcdatamodeld in Sources */,
 				6B4F06F629CAE7F500D226EA /* ContentView.swift in Sources */,
 				6B4F06F429CAE7F500D226EA /* TestApp.swift in Sources */,
+				6B4EE35F29CCFA0E0077CDD1 /* DataController.swift in Sources */,
+				6B4F070929CAE84A00D226EA /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

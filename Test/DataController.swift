@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import CoreData
+
+class DataController: ObservableObject {
+    
+    let container = NSPersistentContainer(name: "Test")
+    
+    init() {
+        container.loadPersistentStores { description, error in
+            if let error = error {
+                print("core data failed to load: \(error.localizedDescription)")
+            }
+        }
+    }
+    
+}
